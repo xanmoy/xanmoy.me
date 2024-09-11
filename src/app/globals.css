@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    @apply bg-stone-950 text-slate-100;
+}

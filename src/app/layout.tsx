@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-zinc-950 text-slate-100">
+    <html lang="en">
       <body className={urbanist.className}>{children}</body>
     </html>
   );
